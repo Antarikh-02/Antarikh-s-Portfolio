@@ -115,12 +115,12 @@ export default function PortfolioLoader() {
       {/* Background Video Layer - Always present */}
       <div 
         ref={videoContainerRef}
-        className="fixed inset-0 z-40 "
+        className="fixed inset-0 z-40"
         style={{ pointerEvents: showHero ? 'none' : 'auto' }}
       >
         <video
           ref={videoRef}
-          className="absolute inset-0 w-full h-full object0-cover "
+          className="absolute inset-0 w-full h-full object-cover"
           src="images/nigga.mp4"
           autoPlay
           playsInline
@@ -186,7 +186,7 @@ export default function PortfolioLoader() {
 
             {/* Terminal text */}
             <div className="mt-8 text-green-300 font-mono text-sm">
-              <span className="opacity-70">{'>'}</span> initializing Antarikh's portfolio
+              <span className="opacity-70">{'>'}</span> initializing Sudipto's portfolio
               <span className="animate-pulse ml-1">_</span>
             </div>
           </div>
