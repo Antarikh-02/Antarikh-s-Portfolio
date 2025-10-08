@@ -73,8 +73,8 @@ export default function HeroGrid() {
             ))}
 
             {/* Center Box - Antarikh's Portfolio */}
-            <div className="pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
-              <div className="bg-black/70 text-white px-6 py-4 rounded-lg shadow-lg text-center backdrop-blur-md">
+            <div className="max-lg:hidden pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
+              <div className="bg-black/70 text-white px-3 py-2 rounded-lg shadow-lg text-center backdrop-blur-md">
                 <h1 className="text-2xl md:text-3xl font-semibold">Antarikh's Portfolio</h1>
               </div>
             </div>

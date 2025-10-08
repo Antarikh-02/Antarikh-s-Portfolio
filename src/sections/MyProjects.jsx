@@ -3,19 +3,19 @@ import { Code2, ExternalLink, Github, X, Layers, Sparkles, Rocket } from "lucide
 export default function Projects({ onClose }) {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-featured online store with payment integration, inventory management, and admin dashboard.",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "AWS"],
-      image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&q=80",
-      github: "https://github.com/yourusername/project1",
-      live: "https://project1.com",
+      title: "Movie Ticket Booking Website",
+      description: "A full-featured movie ticket booking platform with user authentication, seat selection, and payment integration.",
+      tech: ["React", "Node.js", "MongoDB", "Stripe", "RazorPay"],
+      image: "https://static.vecteezy.com/system/resources/previews/039/374/183/non_2x/movie-poster-with-film-reel-clapboard-popcorn-and-tickets-banner-for-watch-movies-with-3d-glasses-cartoon-cinema-theater-concept-vector.jpg",
+      github: "https://github.com/Antarikh-02/TicketFlix-Frontend",
+      live: "https://ticketflix-official.netlify.app/",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, team chat, and analytics.",
-      tech: ["Next.js", "TypeScript", "PostgreSQL", "Socket.io", "Tailwind"],
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+      title: "Food Delivery Website",
+      description: "A responsive food delivery application with real-time order tracking, restaurant listings, and user reviews.",
+      tech: ["React", "Node.js", "MongoDB", "Stripe", "Socket.io", "Tailwind"],
+      image: "https://i.pinimg.com/736x/42/a0/7e/42a07ea2ef5575eaaa33e25c0257c4a7.jpg",
       github: "https://github.com/yourusername/project2",
       live: "https://project2.com",
       featured: true
@@ -112,7 +112,7 @@ export default function Projects({ onClose }) {
                       <img 
                         src={project.image} 
                         alt={project.title}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        className="w-full h-full object-cover  transition-transform duration-500"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     </div>
@@ -175,7 +175,7 @@ export default function Projects({ onClose }) {
               {otherProjects.map((project, idx) => (
                 <div
                   key={project.title}
-                  className="group bg-white/10 backdrop-blur-md rounded-lg border border-white/20 hover:border-white/30 transition-all duration-300 overflow-hidden hover:scale-105 animate-slide-in-up"
+                  className="group bg-white/10 backdrop-blur-md rounded-lg border border-white/20 hover:border-white/30 transition-all duration-300 overflow-hidden "
                   style={{ animationDelay: `${(idx + featuredProjects.length) * 100}ms` }}
                 >
                   {/* Image */}
