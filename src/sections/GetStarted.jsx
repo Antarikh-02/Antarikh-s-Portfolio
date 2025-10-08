@@ -70,7 +70,7 @@ const GetStarted = () => {
                     {/* Description */}
                     <div className={`transition-all duration-1000 delay-300 ${showDescription ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}>
                         <p className="text-xl md:text-2xl text-gray-400 mb-12 max-w-xl font-light leading-relaxed">
-                            Crafting modern, responsive, and user-centric digital experiences through innovative web solutions
+                            Transforming ideas into engaging, modern, and scalable web solutions.
                         </p>
                     </div>
 
