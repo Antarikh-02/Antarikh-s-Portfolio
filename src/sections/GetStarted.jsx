@@ -49,11 +49,11 @@ const GetStarted = () => {
                         className={`transition-all duration-1000 ${showTitle ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}
                     >
                         <h1
-                            className="font-black text-white leading-none mb-6 whitespace-nowrap "
+                            className="font-black text-[#F2F2F2] leading-none mb-6 whitespace-nowrap "
                             style={{
                                 fontFamily: "'Black Ops One', system-ui, -apple-system, sans-serif",
                                 letterSpacing: '-0.02em',
-                                fontSize: 'clamp(2.5rem, 6vw, 80px)' // scales between min and max
+                                fontSize: 'clamp(2.5rem, 6vw, 70px)' // scales between min and max
                             }}
                         >
                             ANTARIKH BANERJEE
@@ -62,7 +62,7 @@ const GetStarted = () => {
 
                     {/* Subtitle */}
                     <div className={`transition-all duration-1000 delay-200 ${showSubtitle ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-20'}`}>
-                        <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-300 mb-8" style={{ fontFamily: 'system-ui, -apple-system, sans-serif', letterSpacing: '-0.01em' }}>
+                        <h2 className="text-3xl md:text-5xl lg:text-5xl font-bold text-gray-300 mb-8" style={{ fontFamily: 'system-ui, -apple-system, sans-serif', letterSpacing: '-0.01em' }}>
                             WEB DEVELOPER
                         </h2>
                     </div>
@@ -92,9 +92,9 @@ const GetStarted = () => {
                 {/* Right side - Image */}
                 <div className="hidden lg:flex w-1/2 h-full items-end justify-end pr-0 pb-0">
                     <div className={`transition-all duration-1200 ${showImage ? 'opacity-100 scale-100 translate-x-0' : 'opacity-0 scale-90 translate-x-20'}`}>
-                        <div className="relative w-full max-w-2xl ml-15">
+                        <div className="relative w-full max-w-[640px] mr-12">
                             {/* Placeholder for your PNG image */}
-                            <img src="images/Antarikh.png" alt="Sudipto Saha" className="w-full h-full object-cover" />
+                            <img src="images/Antarikh.png" alt="Antarikh Banerjee" className="w-full h-full object-cover" />
                         </div>
                     </div>
                 </div>
