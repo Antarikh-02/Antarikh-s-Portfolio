@@ -11,25 +11,25 @@ export default function HeroGrid() {
       id: 1,
       title: "About Me",
       subtitle: "Get to know me",
-      bg: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&h=600&fit=crop",
+      bg: "images/about me.png",
     },
     {
       id: 2,
       title: "My Projects",
       subtitle: "Work Showcase",
-      bg: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1600&h=900&fit=crop",
+      bg: "images/my projects.png",
     },
     {
       id: 3,
       title: "Skills & Education",
       subtitle: "My expertise",
-      bg: "https://images.unsplash.com/photo-1529070538774-1843cb3265df?w=1920&q=80",
+      bg: "images/skills (2).png",
     },
     {
       id: 4,
       title: "Contact Me",
       subtitle: "Let's Connect",
-      bg: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&h=600&fit=crop",
+      bg: "images/contact.png",
     },
   ];
 
@@ -46,7 +46,7 @@ export default function HeroGrid() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.4 }}
-            className="grid grid-cols-1 md:grid-cols-2 w-full h-full gap-2 relative"
+            className="grid grid-cols-1 md:grid-cols-2 w-full h-full gap-2 relative "
           >
             {/* Grid Tiles */}
             {tiles.map((tile) => (
@@ -60,7 +60,7 @@ export default function HeroGrid() {
                   className="absolute inset-0 bg-center bg-cover opacity-40"
                   style={{ backgroundImage: `url('${tile.bg}')` }}
                 />
-                <div className="absolute inset-0 bg-white/10 backdrop-blur-[4px] " />
+                <div className="absolute inset-0 bg-white/10 backdrop-blur-[2.8px] " />
                 <div className="relative z-10 text-center px-4 cursor-pointer hover:scale-105 transition-transform duration-300">
                   <h3 className="text-3xl sm:text-4xl font-semibold text-white drop-shadow-lg">
                     {tile.title}
@@ -74,8 +74,8 @@ export default function HeroGrid() {
 
             {/* Center Box - Antarikh's Portfolio */}
             <div className="max-lg:hidden pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
-              <div className="bg-black/70 text-white px-3 py-2 rounded-lg shadow-lg text-center backdrop-blur-md">
-                <h1 className="text-2xl md:text-3xl font-semibold">Antarikh's Portfolio</h1>
+              <div className="bg-black/70 text-white px-3 py-2 pt-1 rounded-lg shadow-lg text-center backdrop-blur-md">
+                <h1 className="text-2xl md:text-3xl font-semibold ">Antarikh's Portfolio</h1>
               </div>
             </div>
           </motion.div>
