@@ -72,7 +72,7 @@ const GetStarted = () => {
                                 src={AntarikhImg}
                                 alt="Antarikh Banerjee"
                                 draggable={false}
-                                className="w-full h-auto max-h-[90vh] object-contain object-top"
+                                className="w-full h-auto max-h-[100vh] object-contain object-top"
                             // optional srcSet for high dpi devices:
                             // srcSet={`${AntarikhImg} 1x, ${AntarikhImg} 2x`}
                             />
