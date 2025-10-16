@@ -75,7 +75,7 @@ export default function HeroGrid() {
             {/* Center Box - Antarikh's Portfolio */}
             <div className="max-lg:hidden pointer-events-none absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-50">
               <div className="bg-black/70 text-white px-3 py-2 pt-1 rounded-lg shadow-lg text-center backdrop-blur-md">
-                <h1 className="text-2xl md:text-3xl font-semibold ">Antarikh's Portfolio</h1>
+                <h1 className="text-2xl md:text-3xl font-semibold "style={{ fontFamily: "'Black Ops One', system-ui, -apple-system, sans-serif", letterSpacing: '-0.02em', fontSize: 'clamp(2.5rem, 6vw, 50px)' }}>Antarikh's Portfolio</h1>
               </div>
             </div>
           </motion.div>
