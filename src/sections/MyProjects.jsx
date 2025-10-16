@@ -6,7 +6,7 @@ export default function Projects({ onClose }) {
       title: "Movie Ticket Booking Website",
       description: "A full-featured movie ticket booking platform with user authentication, seat selection, and payment integration.",
       tech: ["React", "Node.js", "MongoDB", "Stripe", "RazorPay"],
-      image: "https://static.vecteezy.com/system/resources/previews/039/374/183/non_2x/movie-poster-with-film-reel-clapboard-popcorn-and-tickets-banner-for-watch-movies-with-3d-glasses-cartoon-cinema-theater-concept-vector.jpg",
+      image: "images/ticketflix.png",
       github: "https://github.com/Antarikh-02/TicketFlix-Frontend",
       live: "https://ticketflix-official.netlify.app/",
       featured: true
