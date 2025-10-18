@@ -4,7 +4,7 @@ export default function SkillsEducation({ onClose }) {
   const education = [
     { year: "2023-2025", degree: "Masters in Computer Application", institution: "Guru Nanak Institite Of Technology" },
     { year: "2020 - 2023", degree: "Bachelor of Computer Applications", institution: "Techno India Hooghly Campus" },
-    { year: "2019 - 2020", degree: "Higher Secondary (Commerce)", institution: "Kalyani Public School" },
+    { year: "2019 - 2020", degree: "Higher Secondary", institution: "Kalyani Public School" },
   ];
 
   const skills = [
