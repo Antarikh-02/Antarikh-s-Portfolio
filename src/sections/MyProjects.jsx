@@ -21,41 +21,23 @@ export default function Projects({ onClose }) {
       featured: true
     },
     {
-      title: "Social Media Dashboard",
+      title: "Social Media (In Progress)",
       description: "Analytics platform for tracking social media metrics across multiple platforms.",
-      tech: ["React", "Express", "Redis", "Chart.js", "REST APIs"],
+      tech: ["React", "Express", "Tailwind CSS", "REST APIs"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
       github: "https://github.com/yourusername/project3",
       live: "https://project3.com",
       featured: false
     },
     {
-      title: "Weather Forecast App",
+      title: "AeroCast (Weather Forecast)",
       description: "Real-time weather application with location-based forecasts and interactive maps.",
-      tech: ["React", "OpenWeather API", "Mapbox", "Tailwind CSS"],
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&q=80",
-      github: "https://github.com/yourusername/project4",
-      live: "https://project4.com",
+      tech: ["React", "OpenWeather API", "Tailwind CSS" ],
+      image: "images/weather.png",
+      github: "https://github.com/Antarikh-02/AeroCast",
+      live: "https://aerocast-one.vercel.app/",
       featured: false
     },
-    {
-      title: "Portfolio CMS",
-      description: "Content management system specifically designed for creative professionals and portfolios.",
-      tech: ["Next.js", "Sanity.io", "Vercel", "Framer Motion"],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&q=80",
-      github: "https://github.com/yourusername/project5",
-      live: "https://project5.com",
-      featured: false
-    },
-    {
-      title: "Fitness Tracker",
-      description: "Mobile-first fitness tracking app with workout plans, nutrition logging, and progress charts.",
-      tech: ["React Native", "Firebase", "Redux", "Chart.js"],
-      image: "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=800&q=80",
-      github: "https://github.com/yourusername/project6",
-      live: "https://project6.com",
-      featured: false
-    }
   ];
 
   const featuredProjects = projects.filter(p => p.featured);
