@@ -249,7 +249,7 @@ backgroundImage: "url('https://images.unsplash.com/photo-1451187580459-43490279c
           <div className="p-5 bg-white/10 backdrop-blur-md rounded-lg border border-white/20 hover:border-white/30 transition-all duration-300 hover:scale-105 card hover-card">
             <h3 className="text-lg sm:text-xl font-semibold mb-3 text-purple-300">Continuous Learning</h3>
             <p className="text-gray-100">
-              Constantly exploring new technologies, attending conferences, and participating in hackathons.
+              Constantly exploring new technologies, attending conferences.
             </p>
           </div>
           <div className="p-5 bg-white/10 backdrop-blur-md rounded-lg border border-white/20 hover:border-white/30 transition-all duration-300 hover:scale-105 card hover-card">
